@@ -2,9 +2,11 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
 }
-.info{
+.flexible-container{
     display: flex;
-}
+    text-align: justify;
+} 
+   
 h1{
     font-size: 60px;
     text-align: center;
@@ -29,16 +31,43 @@ h1{
 .persons-list{
     margin-left: 3%;
     margin-right: 3%;
-
     text-align: justify;
     width: 40%;
     vertical-align: top;
     
 }
 .persons-list img{
-    width: 50%;
+    width: 40%;
+    
+}
+.president{
+    background-image: url(images/27295708-world-map-background-in-polygonal-style-can-be-used-for-website-info-graphics-banner-.webp);
     
 }
 h3{
     color: rgb(153, 113, 5);
+}
+.president-list{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 10px 20px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.president-lsit{
+    display: flex;
+}
+#putin{
+   border-left: 5px solid;
+   border-top: 5px solid;
+   border-image: linear-gradient(black, gray);
+   border-image-slice: 1;
+   border-radius: 10px;
+}
+#nazar{
+    border-left: 5px solid;
+    border-top: 5px solid;
+    border-image: linear-gradient(black, gray);
+    border-image-slice: 1;
 }
