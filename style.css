@@ -76,3 +76,7 @@ h3{
     border-image: linear-gradient(black, gray);
     border-image-slice: 1;
 }
+
+footer{
+   text-align: center;
+   margin-top: 5%;
