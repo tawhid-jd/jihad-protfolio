@@ -2,9 +2,13 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
 }
+.info{
+    display: flex;
+}
 h1{
     font-size: 60px;
     text-align: center;
+
 }
 
 .name-color{
@@ -16,24 +20,25 @@ h1{
     margin-right: auto;
     width: 90%;
 }
-#list{
+.list{
       text-align: center;
         color: rgb(3, 54, 59);
-    
+        font-size: 50px;
+        margin-top: 7%;
 }
 .persons-list{
-    margin-left: 5%;
-    
+    margin-left: 3%;
+    margin-right: 3%;
+
     text-align: justify;
     width: 40%;
     vertical-align: top;
     
 }
 .persons-list img{
-    width: 30%;
-    display: inline-block;
-}
-.joe{
-    display: flex;
+    width: 50%;
     
+}
+h3{
+    color: rgb(153, 113, 5);
 }
